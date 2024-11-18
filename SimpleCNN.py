@@ -2,16 +2,21 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+from config import QUESTION_IMG_SIZE, SYMBOLS_IMG_SIZE, SYMBOLS, \
+            TOKEN_TYPE, NUMBERS, OPERATORS, SEPARATORS,\
+            ALGEBRA, FUNCTION, CALCULUS, SET_THEORY,\
+            ADDITIONAL, UPPERCASE, LOWERCASE
+
 class SimpleCNN(nn.Module):
     def __init__(self):
         super(SimpleCNN, self).__init__()
         
-        # First Convolutional Layer: 1 input channel (grayscale), 32 output channels, 3x3 kernel size
+        # First Convolutional Layer: 1 input channel (grayscale), 32 output channels, 3x3x1 kernel size
         self.conv1 = nn.Conv2d(in_channels=1, out_channels=32, kernel_size=3, padding=1)  # Maintain size 45x45
         self.relu1 = nn.ReLU()
         
-        # First Max-Pooling Layer: 3x3 filter with stride 3, reducing size from 45x45 to 15x15
-        self.pool1 = nn.MaxPool2d(kernel_size=3, stride=3)
+        # First Max-Pooling Layer: 3x3 filter with stride 3
+        self.pool1 = nn.MaxPool2d(kernel_size=3, stride=3)  # Reducing size from 45x45 to 15x15
         
         # Second Convolutional Layer: 32 input channels, 64 output channels, 3x3 kernel size
         self.conv2 = nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1)  # Maintain size 15x15
