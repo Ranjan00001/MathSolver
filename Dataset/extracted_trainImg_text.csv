@@ -1,0 +1,104 @@
+image_name,extracted_text
+1.jpg,$f(x) = \frac{x^{-1}}{x}$
+2.jpg,(x - 15)(x - 15)
+3.jpg,$f(x) = \frac{3}{2}(0.25)^x$
+4.jpg,$\left(\frac{(4x)^2y}{xy^4}\right)^{-2}$
+5.jpg,7(x³ + x + 2)(x - 5)²
+6.jpg,sin 73°
+7.jpg,$\log x + 5\log(x-1) \ge 3$
+8.jpg,$\frac{2^2y^{-6}}{8-1z^0x^{-7}}$
+9.jpg,|2 - x| + |x + 3| = 5
+11.jpg,2x + 3y = 12
+12.jpg,x² - 8x + 9 = 0
+13.jpg,"x + 3y = 6
+6y + 2x = 12"
+14.jpg,-1 = 4 + x/3
+15.jpg,$(\sqrt{9-x^2})^2 - 9$
+16.jpg,(6.4 × 10⁷) / (1.6 × 10⁵)
+17.jpg,$-x^2 + 9 = 9$
+18.jpg,"3x - 2y = 1
+5x + 6y = 11"
+19.jpg,y = 2(¾)^x
+20.jpg,$\frac{35x + 20}{49x^2 - 16}$
+21.png,Error: cannot identify image file '/content/drive/MyDrive/Computer Vision Project/train/21.png'
+22.jpg,"y ≥ -4x
+y ≤ -5"
+23.jpg,$\frac{1}{a+1} + \frac{1}{a-1}$
+24.jpg,"2x₁ - 5x₂ + x₃ = 28
+3x₁ + 4x₂ + 5x₃ = 17
+7x₁ - 2x₂ + 3x₃ = 33"
+25.jpg,log₄ 2 + log₄ 32
+26.jpg,"y = -x² - 6x - 10
+y = 3x² + 18x + 22"
+27.jpg,"y = -2x
+2x + y = 3"
+28.jpg,x<sup>1/5</sup> ⋅ x<sup>2/5</sup>
+29.jpg,4x - 6y = 24
+30.jpg,$\frac{1}{x} + \frac{1}{2x} = 6$
+31.jpg,√x - 6 - √x = 3
+32.jpg,"2·8² - 2²·8
+---------
+   2·8"
+33.jpg,x² - 3 = 0
+34.jpg,$\frac{\sin\alpha}{\cos\alpha} + \frac{\cos\alpha}{1 + \sin\alpha}$
+35.jpg,5⁻² = ¹⁄₂₅
+36.jpg,4 + |x - 7| = 2
+37.jpg,x² - 25 = 0
+38.jpg,g(x) = -(6x+1)/(3x+1)
+39.jpg,"4x - y + z = -5
+-x + y - z = 5
+2x - z - 1 = y"
+40.jpg,$\frac{\cos\theta}{\sec\theta} + \frac{\sin\theta}{\csc\theta} = 1$
+41.jpg,$\frac{1}{5}x^2 + 6 = 2x$
+42.jpg,2 - 4x² + 8x⁴ + 3x² + 8
+43.jpg,73 - (2/3)(13⋅6 + 9)4
+44.jpg,z² - y³ + 5x²
+45.jpg,$\frac{6x+6y}{y-x} \div \frac{18}{5x-5y}$
+46.jpg,log(7x+1) = log(x-2) + 1
+47.jpg,$f(x) = \frac{x^{-1}}{x}$
+48.jpg,√-2 ÷ 3
+49.jpg,"-0.1x + 0.2y = 1
+2y = x + 1"
+50.jpg,y = x(2x + 8)
+51.jpg,F(x) = -0.3|x²⁵| ⋅ (x⁴⋅x⁷)
+52.jpg,$\sqrt[8]{x^{16}y^8}$
+53.jpg,g(x) = √x² + x
+54.jpg,$\frac{2 + \sqrt{5}}{\sqrt{5}}$
+55.jpg,"2z + 3x = 5
+z = 4 - 2x"
+56.jpg,$\frac{\sqrt[4]{4}}{\sqrt[4]{1024}}$
+57.jpg,√y+5 = √2y-3
+58.jpg,x² - 4 = 0
+59.jpg,-8 + 3 ⋅ (-4)
+60.jpg,z² - y³ + 5x²
+61.jpg,3x² + 2x²
+62.jpg,x² + 6x + 7 = 0
+63.jpg,"3x + y = 3
+2x - 3y = 2"
+64.jpg,y = 2x + 11
+65.jpg,9x² - 35 = 14
+66.jpg,x(x-2) = 5(x-2)
+67.jpg,"$\frac{\frac{x+4}{x-1}}{x^2+6x+8}$
+$2x-2$"
+68.jpg,-26 < 26t
+69.jpg,x³ + 11 = 11x² + x
+70.jpg,32<sup>5</sup><sup>p</sup> + 2 ≥ 16<sup>5</sup><sup>p</sup>
+71.jpg,f(x) = (7x - 10)/(12x + 5)
+72.jpg,f(x) = 3<sup>x</sup> - 1/3<sup>x</sup>
+73.jpg,$\sqrt[4]{\frac{3}{2}} + 5\sqrt[4]{\frac{3}{2}} - 2\sqrt[4]{\frac{2}{3}}$
+74.jpg,$2\frac{1}{2} \cdot 3\frac{1}{5}$
+75.jpg,$\frac{1}{|x|} = \frac{1}{3}$
+76.jpg,sin 89°
+77.jpg,log₅x + 3 = 3.7
+78.jpg,(a - c)²
+79.jpg,3.9 × 6
+80.jpg,"5y + 3x ≥ 11
+3y - x ≤ -8"
+81.jpg,"-4x - 6y = 25
+7x + 2y = 16"
+82.jpg,5 - |2x - 25| < 10
+83.jpg,cos 82°
+84.jpg,f(x) = ∛(3x² - x)
+85.jpg,3(x + 2) = 42
+86.jpg,5x⁻⁴
+87.jpg,√(7x)³
