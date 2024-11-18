@@ -17,11 +17,11 @@ SYMBOLS = [
     'sin', 'cos', 'tan', 'cot', 'sec', 'cosec', 'log', 'ln',
     'sqrt', '∛', 'abs', 'floor', 'ceil',
     # Calculus
-    'd', 'dx', 'dy', '∫', '∑', 'lim', '∞', 'Δx', 'Δy',
+    'dx', 'dy', '∫', '∑', 'lim', '∞', 'Δx', 'Δy',
     # Set Theory & Logic
     '∈', '∉', '∪', '∩', '∅', '⊂', '⊃', '⊆', '⊇', '∃', '∀',
     # Additional Symbols
-    '→', '↔', '≈', '≡', 'mod', '%', 'unk',
+    '→', '≈', '≡', 'mod', '%', 'unk',
     # Uppercase English Alphabets
     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 
     'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
