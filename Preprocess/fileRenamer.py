@@ -1,7 +1,7 @@
 import os
 
 # Note this is for png files. Change it accordingly for other files
-directory = 'C:\Documents\Sem5\DL\MathSolver\Dataset\MatricesTest2014\-'
+directory = 'C:\Documents\Sem5\DL\MathSolver\Dataset\MatricesTest2014\\z'
 
 # Example of renaming files with a prefix or suffix
 def rename_files_with_prefix(directory, prefix='subr'):
