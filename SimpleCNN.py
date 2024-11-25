@@ -36,7 +36,7 @@ class SimpleCNN(nn.Module):
         self.dropout = nn.Dropout(p=0.4)
         
         # Final Fully Connected Layer: Input size 1024, Output size 32 (number of classes)
-        self.fc2 = nn.Linear(in_features=1024, out_features=32)
+        self.fc2 = nn.Linear(in_features=1024, out_features=128)
     
     def forward(self, x):
         # Forward pass through the layers

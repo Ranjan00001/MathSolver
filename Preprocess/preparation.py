@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-folder_path = 'C:\Documents\Sem5\DL\MathSolver\Dataset\MatricesTest2014\)'
+folder_path = r'C:\Users\Deependra\Documents\SEM5\DeepLearning\Cnn\cv project\MathSolver\Dataset\MatricesTest2014'
 target_size = (28, 28)
 min_width, min_height = 10, 10
 
@@ -19,7 +19,7 @@ def prepare(subFolder):
     for filename in os.listdir(subFolder):
         z_counter = 1
         if filename.endswith(".png"):  # Process PNG images
-            file_path = os.path.join(folder_path, filename)
+            file_path = os.path.join(subFolder, filename)
             try:
                 with Image.open(file_path) as img:
                     width, height = img.size
@@ -42,7 +42,7 @@ def prepare(subFolder):
                         
                         # Save the modified image
                         img.save(file_path)
-                        print(f'Resized/padded {filename} to 45x45')
+                        # print(f'Resized/padded {filename} to 28x28')
                         
             except Exception as e:
                 print(f'Error processing {filename}: {e}')
@@ -50,12 +50,20 @@ def prepare(subFolder):
             break
 
 def main():
-    # for folders in os.listdir(folder_path):
-    #     sub_folder_path = os.path.join(folder_path, folders)
-    #     if os.path.isdir(sub_folder_path):
+    a = 0
+    for folders in os.listdir(folder_path):
+        print(f'---------------------------------------path: {folders}')
+        sub_folder_path = os.path.join(folder_path, folders)
+        # print('dddgfh', sub_folder_path)
+        if os.path.isdir(sub_folder_path):
     #         print(sub_folder_path)
             # for subFolders in os.listdir(folders):
-    prepare(folder_path)
+            prepare(sub_folder_path)
+            # print("heee")
+            print('completed sub folder ', sub_folder_path)
+            a += 1
+            print(a)
+
         # break
 
 if __name__ == '__main__':
