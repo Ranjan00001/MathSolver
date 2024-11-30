@@ -36,37 +36,14 @@ The framework is built upon a simplified version of EasyOCR:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/math-solver.git
-   cd math-solver
+   git clone https://github.com/Ranjan00001/MathSolver.git
+   cd MathSolver
    ```
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 3. Download and prepare the dataset (instructions provided in the `dataset` folder).
-
----
-
-## Usage
-1. **Train the Model**:
-   ```bash
-   python train.py --dataset_path ./data --epochs 50 --batch_size 32
-   ```
-2. **Test the Model**:
-   ```bash
-   python test.py --model_path ./models/best_model.pth --test_images ./test_data
-   ```
-3. **Run on a New Image**:
-   ```bash
-   python predict.py --image_path ./example_image.png --model_path ./models/best_model.pth
-   ```
-
----
-
-## Results
-- **Training Accuracy**: ~95%
-- **Testing Accuracy**: ~90%
-- **Key Achievement**: Effective recognition of handwritten mathematical symbols with minimal computational resources.
 
 ---
 
